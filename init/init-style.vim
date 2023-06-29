@@ -13,6 +13,20 @@
 " 显示设置
 "----------------------------------------------------------------------
 
+" 隐藏菜单栏和工具栏
+"set guioptions-=m
+set guioptions-=T
+
+" 设置显示标签栏
+set showtabline=2
+
+" 字体设置
+set guifont=Consolas:h12
+
+" 窗口大小
+set lines=35
+set columns=100
+
 " 总是显示状态栏
 set laststatus=2
 
@@ -44,14 +58,14 @@ set splitright
 "----------------------------------------------------------------------
 
 " 设置黑色背景
-set background=dark
+set background=light
 
 " 允许 256 色
 set t_Co=256
 
 " 设置颜色主题，会在所有 runtimepaths 的 colors 目录寻找同名配置
-color desert256
-
+color papercol
+" color papercolor
 
 "----------------------------------------------------------------------
 " 状态栏设置
